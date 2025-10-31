@@ -59,12 +59,43 @@ header {
     text-align: right;
 }
 
-.header img {
+.avatar {
     width: 120px;
     height: 120px;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #ccc;
+}
+.header {
+    position: relative;
+    padding-top: 1rem;
+}
+
+.header-icons {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.header-icons a img {
+    width: 28px;
+    height: 28px;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.header-icons a img:hover {
+    opacity: 1;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center;
 }
 
 main {
