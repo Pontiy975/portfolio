@@ -102,7 +102,7 @@ main {
     flex: 1;
     background-color: #222;
     padding: 20px 40px 40px 40px;
-    background: linear-gradient(0deg, #333, #222 90%);
+    background: linear-gradient(0deg, #2D2E43, #1C1D32 90%);
     border-top: 3px solid #001;
 }
 
@@ -130,9 +130,9 @@ footer {
 .project-card {
     display: flex;
     flex-direction: column;
-    min-height: 370px;
+    min-height: 350px;
     text-align: center;
-    background-color: #333;
+    background-color: #4A4959;
     max-width: 25%;
     min-width: 230px;
     box-sizing: border-box;
@@ -156,7 +156,8 @@ footer {
 }
 
 .projects h3 {
-    min-height: 50px;
+    /*min-height: 50px;*/
+    /*vertical-align: text-top;*/
     margin-top: 5px;
 }
 
@@ -164,6 +165,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-top: auto;
 }
 
 .buttons img {
