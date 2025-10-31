@@ -204,6 +204,18 @@ footer {
         width: 96px;
         height: 96px;
     }
+    
+    .header-icons {
+        position: static;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 0.8rem;
+    }
+
+    .header-icons a img {
+        width: 32px;
+        height: 32px;
+    }
 
     .container {
         width: 100%;
